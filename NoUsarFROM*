@@ -1,0 +1,13 @@
+Es considerada una mala práctica utilizar "SELECT *" en consultas SQL por varias razones:
+
+Rendimiento: cuando se utiliza "SELECT *", la base de datos debe buscar y recuperar todos los campos de la tabla, lo que puede afectar el rendimiento de la consulta y hacer que sea más lenta de lo necesario. Si solo se necesitan algunos campos específicos, es mejor incluir solo esos campos en la consulta.
+
+Espacio de almacenamiento: cuando se utiliza "SELECT *", la consulta devuelve todos los campos de la
+Es considerada una mala práctica utilizar "SELECT *" en consultas SQL por varias razones:
+
+Rendimiento: cuando se utiliza "SELECT *", la base de datos debe buscar y recuperar todos los campos de la tabla, lo que puede afectar el rendimiento de la consulta y hacer que sea más lenta de lo necesario. Si solo se necesitan algunos campos específicos, es mejor incluir solo esos campos en la consulta.
+Espacio de almacenamiento: cuando se utiliza "SELECT *", la consulta devuelve todos los campos de la tabla, incluso aquellos que no se necesitan. Esto puede resultar en una gran cantidad de datos innecesarios que se están recuperando y almacenando en la memoria temporal, lo que puede agotar rápidamente los recursos del sistema.
+utilice "SELECT *" incluirá automáticamente esa columna en los resultados, incluso si no se necesita. Esto puede ser problemático si los resultados se utilizan en un proceso posterior que espera un conjunto específico de campos.
+Mantenimiento: si se agrega una columna a la tabla en el futuro, cualquier consulta que utilice "SELECT *" incluirá automáticamente esa columna en los resultados, incluso si no se necesita. Esto puede ser problemático si los resultados se utilizan en un proceso posterior que espera un conjunto específico de campos.
+Ambigüedad: "SELECT *" puede hacer que la consulta sea menos clara y más difícil de entender, ya que no es obvio qué campos se están recuperando y cómo se están utilizando en la consulta. Al incluir solo los campos necesarios en la consulta, la consulta es más clara y fácil de entender.
+En resumen, utilizar "SELECT *" puede afectar negativamente el rendimiento, el espacio de almacenamiento, el mantenimiento y la claridad de la consulta. Es mejor utilizar solo los campos necesarios en la consulta.

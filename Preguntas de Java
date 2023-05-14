@@ -1,0 +1,63 @@
+Que es Java?
+Un lenguaje de programacion de alto nivel fuertemente tipado creado por la empresa sun Microsistems, comprado por Oracle
+
+Que es un proyecto?
+Es un espacio que permita la interaccion entre el sistema, en el se almacenan y agrupan las clases
+
+Que es una Clase
+Es una plantilla donde estara alojado el codigo fuente
+
+Que son las convenciones
+Una serie de recomendaciones y acuerdos para facilitar la lectura y mantenimiento del codigo tiene que ver con buenas practicas
+
+Que es una variable?
+Es un cotenedor que almacena un valor mutable es decir puede cambiar su valor de manera variable
+
+Ejemplo de una variable en java
+int x = 0;
+
+Que son las variables primitivas
+
+
+Cuantos datos primitivos existen
+8
+
+Cuales son los datos o variables primitivos
+1. int 
+2. char
+3. long
+4. double
+5. float
+6. boolean
+7. byte
+8. short
+
+Que es una constante
+Es un contenedor que almacena un valor inmutable es decir que no cambia su valor
+
+Cual es la diferencia entre una variable y una constante
+La variable puede cambiar su valor y la constante mantiene su valor y no se puede cambiar una vez declarada
+
+Que es una palabra reservada en Java
+Son palabras restringidas que son usadas por el mismo lenguaje, no pueden utilizarse mas que para lo que fueron creadas
+
+Marque con X las sentencias que arrojan un error
+boolean ingresar = "true";   ____X_____     AL tener comillas dobles la variable es un dato String y el tipo de dato declarado es un boolean por lo cual dara error
+String cas = Hola mundo;     ____X_____     El tipo de dato es un String y en la declaracion faltan las comillas dobles
+final int SUELDO = 345800    ____X_____     Hace falta punto y coma, en la convencion todas las variables deben de ir en minusculas o camelCase
+INT x = 4;                   ____X_____     El tipo de dato deberia ser int no INT
+double y = 56;               __________     Al ser dato double convertira 56 a 56.00 por lo cual esta declaracion es correcta
+int edad 12.5;               ____X_____     En este caso el tipo de dato int es de almacenaje mas pequeño y no soporta numeros con punto decimal para ello podriamos usar float o double
+int for = 9;                 ____X_____     La declaracion es correcta pero la variable que intenta usar es una palaba resevada para el ciclo for poŕ lo cual mandara error de nombre de variable
+Int suma = 2 + 3;            ____X_____     El tipo de dato es int y no Int aunque en la parte de encapsulamiento podria utilizarse en mayuscula pero el dato seria Integer
+Public Clas SUMAR            ____X_____     La convencion esta mal deberia ser public class Sumar{}
+double x = "Hola";           ____X_____     El tipo de dato es incorrecto ya que la variable es un String y el tipo de dato declarado es un double
+
+Que es una estructura de control
+Es una estructura que permite controlar el flujo de un programa
+
+Que es lambda
+Simplemente son funciones de flecha
+
+Crear proyecto Spring 
+Abrir initializer, anotar nombre, seleccionar version de jdk   
